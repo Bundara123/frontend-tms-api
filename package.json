@@ -1,0 +1,18 @@
+{
+  "name": "frontend-tms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bundara123/frontend-tms.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd . && npx json-server --watch -p 4000 db.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-server": "^0.16.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
